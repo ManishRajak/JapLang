@@ -1,0 +1,82 @@
+@CHARSET "ISO-8859-1";
+/*stylesheet for header*/
+
+/*wraper contain whole header*/
+
+.wraper{
+	
+	background-color: #ffffff;
+	    height: 108px;
+    width: 1350px;
+}
+
+
+/* left side header contain logo */
+/*---------------start-----------*/
+#wraperLeft{
+	background-color: #ffffff;
+	 height: 108px;
+    width: 675px;
+}
+
+
+.logo{
+	border-radius:50%;
+	    margin-left: 13px;
+        margin-top: 10px;
+}
+h3{
+	    margin-left: 128px;
+        margin-top: -67px;
+}
+ /*--------------end---------*/
+
+
+
+
+/* navigation on right of header */ 
+/*----------------start----------------*/
+#wraperRight{
+	background-color: #ffffff;
+     height: 108px;
+     width: 675px;
+     margin-top: -108px;
+    margin-left: 675px;
+}
+
+
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:35px;
+	font-size: x-large;
+}
+li {
+    float: left;
+    position: relative;
+}
+li a{
+	 display: block;
+	 width: 60px;
+	  color: #000;
+    padding: 5px 34px;
+    text-decoration: none;
+     
+}
+li a:hover{
+	 background-color: #008000;
+    color: white;
+     display: inline;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/*----------------end--------------------*/
+
+
+#header{
+	background-color: #808040;
+	    height: 108px;
+        width: 1350px;
+}

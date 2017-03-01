@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<script src="jquery-3.1.1.js"></script>
+
+<title>JapLang</title>
+</head>
+<body>
+<div id="header">
+</div>
+ <script>
+ $(document).ready(function(){ 
+	  $.get("header.html", function(data) {
+	    $("#header").html(data);
+	  });
+	}); 
+</script>
+
+
+</body>
+</html>
